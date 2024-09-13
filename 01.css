@@ -1,0 +1,119 @@
+@charset "utf=8";
+
+
+*{
+    font-family: 'pretendard';
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.all{
+    font-family: 'Pretendard-Regular';
+    width: 1920px;
+    margin: 0 auto;
+    
+}
+.all .header{    
+    background-color: aqua;
+    position: relative;
+    height: 960px;
+    margin-bottom: 160px;
+}
+.all .header img{
+    object-fit: cover;
+}
+.all .header .text{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}
+.all .header .text h1{
+    font-size: 65px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.all .header .text P{
+    font-size: 20PX;
+}
+.all .body01{
+    width: 100%;
+    margin-bottom: 160px;
+}
+.all .body01 h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+    margin-left: 320px;
+    font-weight: bold;
+}
+.all .body01 .box{
+    display: flex;
+    text-align: center;
+    width: 1280px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.all .body01 .box img{
+    object-fit: cover;
+    width: 412px;
+    height: 460px;
+    margin-bottom: 20px;
+    
+}
+.all .body01 .box h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+.all .body01 .box p{
+    font-size: 16px;
+}
+.all .body02{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    padding-top: 160px;
+    padding-bottom: 170px;
+}
+.all .body02 .text{
+    margin-right: 110px;
+    margin-top: 60px;
+    
+}
+.all .body02 .text p{
+    font-size: 20px;
+}
+.all .body02 .text p:nth-child(1){
+    color: #9d1e34;
+}
+.all .body02 .text p:nth-child(3){
+    margin-bottom: 60px;
+}
+.all .body02 .text h1{
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}   
+.all .body02 .text a{
+    background-color: #fff;
+    border: 1px solid #555;
+    padding: 15px 40px;
+    font-size: 16px;
+    border-radius: 60px;
+}
+.all .body02 .img{
+    object-fit: cover;
+}
+
